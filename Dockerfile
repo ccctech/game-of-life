@@ -1,6 +1,6 @@
 FROM java:8
 
-RUN mkdir /java/playground
+RUN mkdir /opt/playground
 
 # development script to stop the app, redeploy the jar and restart
 
