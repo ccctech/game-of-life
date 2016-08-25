@@ -1,6 +1,8 @@
-FROM java:8
+FROM maven:3.3-jdk-8-onbuild
 
-RUN mkdir /opt/playground
+CMD ["java","-jar","/usr/src/game-of-life/target/gameoflife-build-1.0-SNAPSHOT.jar"]
+
+RUN mkdir /opt/gameoflife
 
 # development script to stop the app, redeploy the jar and restart
 
