@@ -7,6 +7,6 @@ RUN mkdir /opt/gameoflife
 # development script to stop the app, redeploy the jar and restart
 
 # application and startup script
-ADD ./target/gameoflife-build-1.0-SNAPSHOT.jar /usr/local/gameoflife-build-1.0-SNAPSHOT.jar
+ADD /usr/src/app/gameoflife-web/target/gameoflife-build-1.0-SNAPSHOT.jar /usr/local/gameoflife-build-1.0-SNAPSHOT.jar
 
 
