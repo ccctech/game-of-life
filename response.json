@@ -1,0 +1,66 @@
+HTTP/1.1 201 Created
+Server: GitHub.com
+Date: Fri, 26 Aug 2016 16:14:50 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1796
+Status: 201 Created
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4997
+X-RateLimit-Reset: 1472231041
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: "e0dfdc94dbe6a0fbdc062cc73e4025f0"
+X-OAuth-Scopes: admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, delete_repo, gist, notifications, repo, user
+X-Accepted-OAuth-Scopes: 
+Location: https://api.github.com/repos/ccctech/game-of-life/releases/3984429
+X-GitHub-Media-Type: github.v3
+Access-Control-Expose-Headers: ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+Vary: Accept-Encoding
+X-Served-By: 593010132f82159af0ded24b4932e109
+X-GitHub-Request-Id: 43AAFE96:6519:9A6B7D6:57C06AFA
+
+{
+  "url": "https://api.github.com/repos/ccctech/game-of-life/releases/3984429",
+  "assets_url": "https://api.github.com/repos/ccctech/game-of-life/releases/3984429/assets",
+  "upload_url": "https://uploads.github.com/repos/ccctech/game-of-life/releases/3984429/assets{?name,label}",
+  "html_url": "https://github.com/ccctech/game-of-life/releases/tag/latest_2",
+  "id": 3984429,
+  "tag_name": "latest_2",
+  "target_commitish": "master",
+  "name": "0.0.7",
+  "draft": false,
+  "author": {
+    "login": "ccctech",
+    "id": 20866978,
+    "avatar_url": "https://avatars.githubusercontent.com/u/20866978?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ccctech",
+    "html_url": "https://github.com/ccctech",
+    "followers_url": "https://api.github.com/users/ccctech/followers",
+    "following_url": "https://api.github.com/users/ccctech/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ccctech/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ccctech/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ccctech/subscriptions",
+    "organizations_url": "https://api.github.com/users/ccctech/orgs",
+    "repos_url": "https://api.github.com/users/ccctech/repos",
+    "events_url": "https://api.github.com/users/ccctech/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ccctech/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "prerelease": false,
+  "created_at": "2016-08-26T15:59:07Z",
+  "published_at": "2016-08-26T16:14:50Z",
+  "assets": [
+
+  ],
+  "tarball_url": "https://api.github.com/repos/ccctech/game-of-life/tarball/latest_2",
+  "zipball_url": "https://api.github.com/repos/ccctech/game-of-life/zipball/latest_2",
+  "body": "Description of the release"
+}
